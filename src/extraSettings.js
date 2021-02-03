@@ -9,7 +9,7 @@ let extraScore = 1;
 let wuDi = true;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
-let firstFruit = 8;
+let firstFruit = 9;
 
 // 水果合成反转：false 改为 true
 let reverseLevelUp = true;
@@ -35,7 +35,7 @@ let fruitSlowDown = false;
 let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png';
+let adLink = false;
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
 document.getElementsByTagName("title")[0].innerText = '京京美术馆';
